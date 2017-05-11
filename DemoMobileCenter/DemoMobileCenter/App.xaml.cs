@@ -23,6 +23,7 @@ namespace DemoMobileCenter
             // Handle when your app starts
             MobileCenter.Start("ios=3e833b46-ea80-482c-9023-50913544ae46;android=55a9299e-3780-45d5-acb4-f25278667a54", typeof(Analytics), typeof(Crashes));
 
+
         }
 
         protected override void OnSleep()
